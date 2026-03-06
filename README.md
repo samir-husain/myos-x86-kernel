@@ -12,7 +12,7 @@ A tiny 32-bit x86 OS kernel built from scratch (GRUB + C).
 - Physical Memory Manager (PMM) using Multiboot memory map
 - Virtual memory mapping helpers
 - Simple heap allocator (`kmalloc`)
-- Page allocator (`kpage_alloc/kpage_free`)
+- Page allocator (`kpage_alloc` / `kpage_free`)
 - Preemptive task switching (round-robin on PIT)
 
 ## Build dependencies (Ubuntu/WSL)
