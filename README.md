@@ -18,4 +18,17 @@ A tiny 32-bit x86 OS kernel built from scratch (GRUB + C).
 ## Build dependencies (Ubuntu/WSL)
 ```bash
 sudo apt update
+
 sudo apt install -y build-essential nasm grub-pc-bin xorriso qemu-system-i386
+```
+
+## Build + Run
+```bash
+make clean
+make
+make run
+```
+
+## Notes
+- Tested with QEMU qemu-system-i386.
+- This project is educational and intentionally minimal.
