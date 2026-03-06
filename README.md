@@ -25,10 +25,13 @@ sudo apt install -y build-essential nasm grub-pc-bin xorriso qemu-system-i386
 ## Build + Run
 ```bash
 make clean
+
 make
+
 make run
 ```
 
 ## Notes
 - Tested with QEMU qemu-system-i386.
 - This project is educational and intentionally minimal.
+
